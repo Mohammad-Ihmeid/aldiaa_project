@@ -53,7 +53,6 @@ class _MainPageScreenState extends State<MainPageScreen> {
                                 width: 80.w,
                                 height: 10.h,
                                 child: TextFormField(
-                                  //expands: true,
                                   showCursor: true,
                                   textAlign: TextAlign.right,
                                   decoration: InputDecoration(

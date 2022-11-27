@@ -132,7 +132,7 @@ class _MainPageScreenState extends State<MainPageScreen> {
                             Text(
                               'PM 7:30',
                               style: TextStyle(
-                                  fontSize: 16.sp, fontWeight: FontWeight.bold),
+                                  fontSize: 14.sp, fontWeight: FontWeight.bold),
                             ),
                             Text(
                               '|',
@@ -146,7 +146,7 @@ class _MainPageScreenState extends State<MainPageScreen> {
                             Text(
                               '450' 'دينار',
                               style: TextStyle(
-                                  fontSize: 16.sp, fontWeight: FontWeight.bold),
+                                  fontSize: 14.sp, fontWeight: FontWeight.bold),
                               textAlign: TextAlign.right,
                             ),
                             Text(
@@ -158,7 +158,7 @@ class _MainPageScreenState extends State<MainPageScreen> {
                             Text(
                               'كاش',
                               style: TextStyle(
-                                  fontSize: 16.sp, fontWeight: FontWeight.bold),
+                                  fontSize: 14.sp, fontWeight: FontWeight.bold),
                               textAlign: TextAlign.right,
                             ),
                           ],

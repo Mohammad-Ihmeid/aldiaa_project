@@ -2,6 +2,7 @@ import 'package:aldiaa_project/helper/custom_color.dart';
 import 'package:aldiaa_project/view/screens/products/all_bakery_screen.dart';
 import 'package:aldiaa_project/view/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import 'package:sizer/sizer.dart';
 
@@ -54,10 +55,7 @@ class _BakeryScreenState extends State<BakeryScreen>
                 appBar: AppBar(
                   leading: IconButton(
                       onPressed: () {
-                        Navigator.of(context)
-                            .pushReplacement(MaterialPageRoute(builder: (_) {
-                          return const HomeScreen();
-                        }));
+                        Get.back();
                       },
                       icon: const Icon(
                         Icons.arrow_back_ios,

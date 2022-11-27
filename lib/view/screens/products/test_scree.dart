@@ -30,42 +30,38 @@ class TestScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        InkWell(
-          splashColor: Colors.red,
-          onTap: () => _selectPages(context),
-          child: Stack(children: [
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
+    return InkWell(
+      splashColor: Colors.red,
+      onTap: () => _selectPages(context),
+      child: Stack(children: [
+        Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Image.asset(
+            imagePath + image,
+            fit: BoxFit.fitWidth,
+          ),
+        ),
+        Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                title,
+                style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
               ),
-              child: Image.asset(
-                imagePath + image,
-                fit: BoxFit.fitWidth,
+              Text(
+                subtitle,
+                style: const TextStyle(fontSize: 16, color: Colors.white),
               ),
-            ),
-            Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    title,
-                    style: const TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white),
-                  ),
-                  Text(
-                    subtitle,
-                    style: const TextStyle(fontSize: 16, color: Colors.white),
-                  ),
-                ],
-              ),
-            ),
-          ]),
-        )
-      ],
+            ],
+          ),
+        ),
+      ]),
     );
   }
 }

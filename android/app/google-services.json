@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "873958474214",
+    "project_id": "aldiaaproject",
+    "storage_bucket": "aldiaaproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873958474214:android:5e46ffb4bd1266b89c9627",
+        "android_client_info": {
+          "package_name": "com.example.aldiaa_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873958474214-kn86ulabf6v7tjlhmlotrcjk9qu0h5bb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgdp8UWhdMpWUERao75va5vyQymlDjyUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873958474214-kn86ulabf6v7tjlhmlotrcjk9qu0h5bb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

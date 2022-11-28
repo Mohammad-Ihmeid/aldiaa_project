@@ -1,6 +1,5 @@
 import 'package:aldiaa_project/helper/custom_color.dart';
 import 'package:aldiaa_project/view/screens/products/all_bakery_screen.dart';
-import 'package:aldiaa_project/view/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
